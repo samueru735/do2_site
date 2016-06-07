@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<title></title>
+	</head>
+
+	<body>
+		<div class="kader">
+			
+			<ul class="nav">
+				<li>Ingelogd als Samuel</li>
+				<li><a href="#" class="selected">Klantenzone</a></li>
+				<li><a href="#">Beheer</a></li>
+			</ul>
+			<h1>Reizen Odysseus</h1>
+			<h2>Boek uw reizen vandaag aan een gunsttarief</h2>
+			<div id="klantenzone" class="selected">
+				<p>De prijzen zijn zo laag dat we ze haast niet mogen tonen.</p>
+				<div class="aanbiedingen">
+					<div class="vakantie">
+					 <button class="delete">x</button>
+					 <h2>Kopenhagen</h2>
+					 <img src="http://pictures.solardestinations.com/images/sightseeing/Denmark/Copenhagen-Littlemermaid-500.jpg" alt="kopenhagen">
+					 <p>Prachtige all-in vakantie van 5 dagen</p>
+					 <button data-prijs="499">Ontdek hier uw prijs</button>
+					</div>
+					<div class="vakantie">
+					<button class="delete">x</button>
+					 <h2>Londen</h2>
+					 <img src="http://www.loyalbooks.com/image/detail/History-of-London.jpg">
+					 <p>Breakfast with eggs and bacon!</p>
+					 <button data-prijs = "99">Ontdek hier uw prijs</button>
+					</div> 
+					<div class="vakantie">
+					<button class="delete">x</button>
+					 <h2>Parijs</h2>
+					 <img src="http://www.israbox.com/uploads/posts/2013-02/1361033312_paris_lamour.jpg" alt="parijs">
+					 <p>Pendant 10 jours du vin, du pain et du Boursin.</p>
+					 <button data-prijs = "829">Ontdek hier uw prijs</button>
+				 	</div>
+			 	</div>
+			 <div class="clearing"></div>
+			 </div>
+			 <div id="beheer" class="onzichtbaar">
+				 <p>Voeg hier nieuwe bestemmingen toe</p>
+				 <label for="best">Bestemming: </label>
+				 <input type="text" class="bestemming" id="best">
+				 <label for="afb">Afbeelding (500 x 500) url: </label>
+				 <input type="text" class="afbeelding" id="afb">
+				 <label for="beschr">Beschrijving: </label>
+				 <input type="text" class="beschrijving" id="beschr">
+				 <label for="pr">Prijs: </label>
+				 <input type="text" class="prijs" id="pr">
+				 <button class="voegtoe">Voeg nieuwe reis toe</button>
+			 </div>
+			 <div class="footer">
+			 <br />
+			 <p>Reizen Odysseus brengt u overal voor een habbekrats, sinds 2014</p>
+			</div>
+		</div> 
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js">
+		</script>
+		<script src="app.js"></script>
+	</body>
+</html>

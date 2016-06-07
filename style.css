@@ -1,0 +1,86 @@
+body{
+	width: 850px;
+	background: skyblue;
+	margin: 3% auto;
+	font-family: sans-serif;
+}
+.kader {
+	position: relative;
+	background: white;
+	padding: 5%;
+	overflow: auto;
+}
+h1 {
+	font-size: 2.3em;
+	font-weight: bold;
+	margin-bottom: 2em;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 1.5em;
+}
+p {
+	margin: 1.3em 0;
+}
+.nav{
+	float: right;
+	margin-top: .5em;
+}
+.nav li{
+	display: inline;
+	margin-left: 1.5em;
+}
+.aanbiedingen {
+	min-height: 450px;
+	overflow: auto;
+}
+.vakantie {
+	min-height: 400px;
+	max-height: 400px;
+	overflow: auto;
+	padding: 2%;
+	border: 1px solid black;
+	float: left;
+	width: 27%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.vakantie:nth-of-type(3){
+	margin-right: 0%;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+button {
+	padding: .5em;
+	font-size: .8em;
+	font-weight: bold;
+}
+button.delete{
+	float: right;
+}
+.onzichtbaar {
+	display: none;
+}
+.cleared {
+	clear: both;
+}
+.selected {
+	color: black;
+	text-decoration: none;
+}
+.footer {
+	position: relative;
+	float: left;
+	display: block;
+}
+input{
+	display: block;
+	width: 300px;
+	margin: .5em 0;
+}
+#beheer .voegtoe {
+	margin: 2em 0;
+}
